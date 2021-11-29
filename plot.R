@@ -1,6 +1,6 @@
 library(dplyr)
 library(ggplot2)
-library(jsonlite) # Lectura de datos de Google
+library(jsonlite) 
 library(osmdata) # Obtención de mapa
 # Historico de movimientos de google ---------
 data <- fromJSON("data/Historial de ubicaciones.json")
